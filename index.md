@@ -17,6 +17,12 @@ Eric J. Ma, Sc.D.
 
 ---
 
+## Today's slides
+
+[ericmjl.github.io/ds-team-success-factors](https://ericmjl.github.io/ds-team-success-factors/)
+
+---
+
 ## 🎯 Today's Focus
 
 ---
