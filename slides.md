@@ -3,14 +3,13 @@ revealOptions:
   transition: 'fade'
 ---
 
-# Success Factors for Biotech DS Teams
+# 🌟 Success Factors for Biotech DS Teams
 
 Eric J. Ma, Sc.D.
 
 ---
 
-
-## About Me
+## 🙋‍♂️ About Me
 
 - **Name:** Eric J. Ma
 - **Role:** Principal Data Scientist at Moderna
@@ -18,7 +17,7 @@ Eric J. Ma, Sc.D.
 
 ---
 
-## Today's Focus
+## 🎯 Today's Focus
 
 ---
 
@@ -30,7 +29,7 @@ Q2: How do we do that in a biotech research setting?
 
 ---
 
-## Four Key Ideas
+## 🗝️ Four Key Ideas
 
 1. A framework for bounding work
 2. Clarity on high-value use cases
@@ -39,21 +38,21 @@ Q2: How do we do that in a biotech research setting?
 
 ---
 
-## Philosophy
+## 💭 Philosophy
 
 - Aim for lasting solutions beyond project duration.
 - Focus on building solutions that serve long-term.
 
 ---
 
-## Item 1: Framework @ Moderna DSAI
+## 📚 Idea 1: Framework @ Moderna DSAI
 
 - 3 rows: mRNA, Proteins, LNPs
 - 3 columns: AI library design, computer vision, probabilistic models + custom algorithms
 
 ---
 
-## What we don't do
+## ❌ What we don't do
 
 - Bioinformatics
 - Computational chemistry
@@ -63,14 +62,14 @@ Clarity is key for collaboration.
 
 ---
 
-## What does your team do and not do?
+## ❓ What does your team do and not do?
 
 - Clear lines of division
 - Dynamic range when necessary
 
 ---
 
-## Item 2: Clarity on High-Value Use Cases
+## 🔍 Idea 2: Clarity on High-Value Use Cases
 
 - Highest value takes priority.
 - Two definitions of value:
@@ -79,23 +78,22 @@ Clarity is key for collaboration.
 
 ---
 
-## Examples
+## 🌟 Examples
 
 - Automated chromatography analysis
 - Predictive models for AI library design
 - Quantitative image analysis
 
-
 ---
 
-## Threads
+## 🧵 Threads
 
 - Save time
 - Unlock new capabilities
 
 ---
 
-## Item 3: Technical and Interpersonal Skillsets
+## 🛠️ Idea 3: Technical and Interpersonal Skillsets
 
 - [Hiring and Interviewing Data Scientists](https://ericmjl.github.io/essays-on-data-science/people-skills/hiring/#scientific-knowledge)
   - People skills
@@ -106,7 +104,7 @@ Clarity is key for collaboration.
 
 ---
 
-## Modeling Skills
+## 🧠 Modeling Skills
 
 Going beyond off-the-shelf models:
 
@@ -116,7 +114,7 @@ Going beyond off-the-shelf models:
 
 ---
 
-## Software Development Skills
+## 💻 Software Development Skills
 
 - Refactoring
 - Documentation
@@ -127,7 +125,7 @@ Going beyond off-the-shelf models:
 
 ---
 
-## Scientific Domain Knowledge
+## 🔬 Scientific Domain Knowledge
 
 - Language, vocabulary, vernacular
 - Understanding of the scientific process
@@ -136,14 +134,14 @@ Going beyond off-the-shelf models:
 
 ---
 
-## Communication Skills
+## 🗣️ Communication Skills
 
 - Clear, concise, and effective
 - Upwards, downwards, and sideways
 
 ---
 
-## People Skills
+## 👥 People Skills
 
 - Opinionated and empathetic
 - Bridge builder
@@ -152,26 +150,26 @@ Going beyond off-the-shelf models:
 
 ---
 
-## Item 4: Necessary Surrounding Context
+## 🌐 Idea 4: Necessary Surrounding Context
 
 - Integration into research processes.
 - Robust technology stack for longevity.
 
 ---
 
-## Story 1: ML for Protein Engineering
+## 📖 Story 1: ML for Protein Engineering
 
 ---
 
-## Story 2: Mouse Motion Analysis
+## 🐁 Story 2: Mouse Motion Analysis
 
 ---
 
-## Story 3: Computational Design Workflow
+## 💻 Story 3: Computational Design Workflow
 
 ---
 
-## Moderna DSAI Deliverables
+## 🚀 Moderna DSAI Deliverables
 
 - Python packages
 - Cloud-skinned CLI tools
@@ -181,14 +179,14 @@ Going beyond off-the-shelf models:
 
 ---
 
-## Technical Infrastructure
+## 🛠️ Technical Infrastructure
 
 - Standardized project scaffold
 - Single deployment endpoint
 
 ---
 
-## Radical Clarity
+## 🧐 Radical Clarity
 
 1. What we do and don't do
 2. High-value use cases
