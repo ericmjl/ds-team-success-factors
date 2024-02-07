@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            
+
+# 🌟 Success Factors for Biotech DS Teams
+
+Eric J. Ma, Sc.D.
+
+---
+
+## 🙋‍♂️ About Me
+
+- **Name:** Eric J. Ma
+- **Role:** Principal Data Scientist at Moderna
+- **Website:** [ericmjl.github.io](https://ericmjl.github.io/)
+
+---
+
+## Today's slides
+
+[ericmjl.github.io/ds-team-success-factors](https://ericmjl.github.io/ds-team-success-factors/)
+
+---
+
+## 🎯 Today's Focus
+
+---
+
+Q1: What does it take for a data science team to successfully deliver long-lasting impact through data products?
+
+---
+
+Q2: How do we do that in a biotech research setting?
+
+---
+
+## 🗝️ Four Key Ideas
+
+1. A framework for bounding work
+2. Clarity on high-value use cases
+3. Technical and interpersonal skillsets
+4. Necessary surrounding context
+
+---
+
+## 💭 Philosophy
+
+- Aim for lasting solutions beyond project duration.
+- Focus on building solutions that serve long-term.
+
+---
+
+## 📚 Idea 1: Framework @ Moderna DSAI
+
+- 3 rows: mRNA, Proteins, LNPs
+- 3 columns: AI library design, computer vision, probabilistic models + custom algorithms
+
+---
+
+## ❌ What we don't do
+
+- Bioinformatics
+- Computational chemistry
+- Protein structure modelling
+
+Clarity is key for collaboration.
+
+---
+
+## ❓ What does your team do and not do?
+
+- Clear lines of division
+- Dynamic range when necessary
+
+---
+
+## 🔍 Idea 2: Clarity on High-Value Use Cases
+
+- Highest value takes priority.
+- Two definitions of value:
+  - Trade between a data scientist's time and another team's time.
+  - New capabilities unlocked and their expected value.
+
+---
+
+## 🌟 Examples
+
+- Automated chromatography analysis
+- Predictive models for AI library design
+- Quantitative image analysis
+
+---
+
+## 🧵 Threads
+
+- Save time
+- Unlock new capabilities
+
+---
+
+## 🛠️ Idea 3: Technical and Interpersonal Skillsets
+
+- [Hiring and Interviewing Data Scientists](https://ericmjl.github.io/essays-on-data-science/people-skills/hiring/#scientific-knowledge)
+  - People skills
+  - Communication skills
+  - Scientific domain knowledge
+  - Software development skills
+  - Modeling skills
+
+---
+
+## 🧠 Modeling Skills
+
+Going beyond off-the-shelf models:
+
+- Mechanistic
+- Probabilistic
+- Deep learning
+
+---
+
+## 💻 Software Development Skills
+
+- Refactoring
+- Documentation
+- Testing
+- Versioning
+
+> Projects live long when they are built like well-designed software.
+
+---
+
+## 🔬 Scientific Domain Knowledge
+
+- Language, vocabulary, vernacular
+- Understanding of the scientific process
+
+> A nuanced understanding of our colleagues' work builds trust and credibility!
+
+---
+
+## 🗣️ Communication Skills
+
+- Clear, concise, and effective
+- Upwards, downwards, and sideways
+
+---
+
+## 👥 People Skills
+
+- Opinionated and empathetic
+- Bridge builder
+- Drives towards clarity
+- Resilient under pressure
+
+---
+
+## 🌐 Idea 4: Necessary Surrounding Context
+
+- Integration into research processes.
+- Robust technology stack for longevity.
+
+---
+
+## 📖 Story 1: ML for Protein Engineering
+
+---
+
+## 🐁 Story 2: Mouse Motion Analysis
+
+---
+
+## 💻 Story 3: Computational Design Workflow
+
+---
+
+## 🚀 Moderna DSAI Deliverables
+
+- Python packages
+- Cloud-skinned CLI tools
+- AI library designs
+
+> Product-orientation gives us scale beyond service-orientation.
+
+---
+
+## 🛠️ Technical Infrastructure
+
+- Standardized project scaffold
+- Single deployment endpoint
+
+---
+
+## 🧐 Radical Clarity
+
+1. What we do and don't do
+2. High-value use cases
+3. Technical and interpersonal skillsets
+4. Necessary surrounding context
+
+---
+
+## ⭐️ Thank you
+
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"transition":"fade","_":[],"static":"_static"}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
